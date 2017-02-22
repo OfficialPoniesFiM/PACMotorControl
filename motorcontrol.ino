@@ -32,9 +32,9 @@ void loop()
   
   motorSpeed += 5;
   
-  if (motorSpeed > 255)
+  if (motorSpeed > 100)
   {
-    motorSpeed = 255;
+    motorSpeed = 100;
   }
   
   if (motorSpeed < 0)
